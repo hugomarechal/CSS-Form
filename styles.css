@@ -1,0 +1,58 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: darkgray;
+    font-size: 3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+label, fieldset{
+    margin-top: 20px;
+    
+}
+textarea {
+    min-height: 2em;
+}
+
+input,fieldset,textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: lightgrey solid 0.2px;
+}
+
+
+.validTest:not(:valid) {
+    border: red solid 1px;
+}
+
+input:hover,fieldset:hover,textarea:hover {
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked + label, input[type=radio]:checked + label{
+    font-weight: 600;
+  }
+
+
+.button {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonBox {
+    margin: 20px auto;
+}
